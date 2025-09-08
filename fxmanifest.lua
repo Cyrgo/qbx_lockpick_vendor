@@ -5,6 +5,13 @@ name 'qbx_lockpick_vendor'
 description 'Simple NPC vendor that sells lockpicks'
 version '1.0.0'
 
+dependencies {
+  'ox_lib',
+  'ox_inventory',
+  'ox_target',
+  'qbx_core',
+}
+
 shared_scripts {
   '@ox_lib/init.lua',
   'config.lua',
@@ -19,4 +26,3 @@ server_scripts {
 }
 
 lua54 'yes'
-
