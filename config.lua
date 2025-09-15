@@ -4,8 +4,8 @@ Config = {
   pedModel = `s_m_y_dealer_01`,
 
   -- Prices
-  lockpickPrice = 50,
-  advancedLockpickPrice = 250,
+  lockpickPrice = 25,
+  advancedLockpickPrice = 100,
 
   -- Map Blip
   blip = {

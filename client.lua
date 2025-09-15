@@ -1,8 +1,8 @@
 local cfg = rawget(_G, 'Config') or {
   coords = { x = 168.67, y = -1811.16, z = 28.78, w = 229.56 },
   pedModel = `s_m_y_dealer_01`,
-  lockpickPrice = 75,
-  advancedLockpickPrice = 350,
+  lockpickPrice = 25,
+  advancedLockpickPrice = 100,
   blip = { enabled = true, label = 'Lockpick Vendor', sprite = 52, color = 5, scale = 0.8 },
 }
 
